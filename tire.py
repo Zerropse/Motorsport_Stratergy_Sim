@@ -28,3 +28,5 @@ class Tire:
         Increase tire age after each lap
         """
         self.age += 1
+
+        
