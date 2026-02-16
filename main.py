@@ -1,28 +1,51 @@
-from tire import Tire
-from car import Car
-from race import Race
 from strategy import StrategySimulator
+from visualization import plot_race
 
-tire = Tire("medium")
-car = Car(tire, fuel=100)
+def run_all_strategies():
+    sim = StrategySimulator(total_laps=30)
 
-race = Race(car, total_laps=30)
+    print("\n--- 0 STOP STRATEGY ---")
+    time_0, _, _, _ = sim.simulate(
+        pit_laps=[],
+        compound_sequence=["medium"]
+    )
 
-race.run()
-race.summary()
+    print("\n--- 1 STOP STRATEGY ---")
+    time_1, lap_times_1, grips_1, fuels_1 = sim.simulate(
+        pit_laps=[15],
+        compound_sequence=["medium", "hard"]
+    )
 
-sim = StrategySimulator(total_laps=30)
+    print("\n--- 2 STOP STRATEGY ---")
+    time_2, _, _, _ = sim.simulate(
+        pit_laps=[10, 20],
+        compound_sequence=["soft", "medium", "hard"]
+    )
 
-print("\n--- 0 STOP STRATEGY ---")
-time_0 = sim.simulate(pit_laps=[], compound_sequence=["medium"])
+    print("\n--- FINAL RESULTS ---")
+    print(f"0 Stop Time: {time_0:.2f}s")
+    print(f"1 Stop Time: {time_1:.2f}s")
+    print(f"2 Stop Time: {time_2:.2f}s")
 
-print("\n--- 1 STOP STRATEGY ---")
-time_1 = sim.simulate(pit_laps=[15], compound_sequence=["medium", "hard"])
+    results = {
+        "0-stop": time_0,
+        "1-stop": time_1,
+        "2-stop": time_2
+    }
 
-print("\n--- 2 STOP STRATEGY ---")
-time_2 = sim.simulate(pit_laps=[10, 20], compound_sequence=["soft", "medium", "hard"])
+    best = min(results, key=results.get)
 
-print("\n--- RESULTS ---")
-print(f"0 Stop Time: {time_0:.2f}")
-print(f"1 Stop Time: {time_1:.2f}")
-print(f"2 Stop Time: {time_2:.2f}")
+    print(f"\n🏆 Best Strategy: {best} ({results[best]:.2f}s)")
+
+    return lap_times_1, grips_1, fuels_1
+
+
+def main():
+    lap_times, grips, fuels = run_all_strategies()
+
+    print("\n📊 Plotting telemetry...")
+    plot_race(lap_times, grips, fuels)
+
+
+if __name__ == "__main__":
+    main()

@@ -6,22 +6,15 @@ class Race:
         self.total_time = 0
 
     def run(self):
-        """
-        Simulate the race
-        """
         for lap in range(self.total_laps):
             lap_time = self.car.compute_lap_time()
-
-            grip = self.car.tire.get_grip()
-            fuel = self.car.fuel
 
             self.lap_times.append(lap_time)
             self.total_time += lap_time
 
-            print(f"Lap {lap+1}: {lap_time:.2f}s | Grip={grip:.3f} | Fuel={fuel:.1f}")
+            print(f"Lap {lap+1}: {lap_time:.2f}s")
 
             self.car.update()
-
 
     def summary(self):
         print("\n--- Race Summary ---")

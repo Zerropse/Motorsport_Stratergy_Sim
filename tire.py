@@ -1,9 +1,8 @@
 class Tire:
     def __init__(self, compound="medium"):
         self.compound = compound.lower()
-        self.age = 0  # laps used
+        self.age = 0
 
-        # Define base grip and degradation rates
         if self.compound == "soft":
             self.base_grip = 1.0
             self.deg_rate = 0.05
@@ -17,16 +16,8 @@ class Tire:
             raise ValueError("Invalid compound")
 
     def get_grip(self):
-        """
-        Grip decreases as tire ages
-        """
         grip = self.base_grip - (self.age * self.deg_rate)
-        return max(grip, 0.5)  # don't go below minimum grip
+        return max(grip, 0.5)
 
     def update(self):
-        """
-        Increase tire age after each lap
-        """
         self.age += 1
-
-        
