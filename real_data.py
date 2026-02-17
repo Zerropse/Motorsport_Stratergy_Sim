@@ -18,8 +18,6 @@ def load_real_race(year=2023, race="Bahrain", driver="VER"):
     lap_times = laps["LapTime"].dt.total_seconds()
     compounds = laps["Compound"]
 
-    return lap_times, compounds
-
 
 def plot_real_data(lap_times):
     laps = list(range(1, len(lap_times) + 1))
