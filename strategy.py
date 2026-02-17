@@ -14,7 +14,6 @@ class StrategySimulator:
         total_time = 0
         tire_index = 0
 
-        # ✅ telemetry storage
         lap_times = []
         grips = []
         fuels = []
@@ -31,12 +30,12 @@ class StrategySimulator:
 
                 print(f"\nLap {lap}: 🛠️ PIT STOP → {new_compound.upper()} (+{self.pit_loss}s)\n")
 
-            # GET DATA
+            # DATA
             grip = car.tire.get_grip()
             fuel = car.fuel
             lap_time = car.compute_lap_time()
 
-            # STORE DATA
+            # STORE
             lap_times.append(lap_time)
             grips.append(grip)
             fuels.append(fuel)
@@ -47,5 +46,4 @@ class StrategySimulator:
 
             car.update()
 
-        # ✅ FIXED RETURN
         return total_time, lap_times, grips, fuels

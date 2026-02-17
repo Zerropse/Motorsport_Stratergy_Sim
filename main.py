@@ -1,6 +1,7 @@
 from strategy import StrategySimulator
 from visualization import plot_race
 
+
 def run_all_strategies():
     sim = StrategySimulator(total_laps=30)
 

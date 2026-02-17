@@ -1,8 +1,8 @@
 class Car:
     def __init__(self, tire, fuel=100):
         self.tire = tire
-        self.fuel = fuel
-        self.base_time = 90
+        self.fuel = fuel  # kg
+        self.base_time = 90  # seconds
 
     def compute_lap_time(self):
         grip = self.tire.get_grip()

@@ -1,7 +1,7 @@
 class Tire:
     def __init__(self, compound="medium"):
         self.compound = compound.lower()
-        self.age = 0
+        self.age = 0  # laps used
 
         if self.compound == "soft":
             self.base_grip = 1.0
