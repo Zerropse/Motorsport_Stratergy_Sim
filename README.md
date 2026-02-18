@@ -124,6 +124,6 @@ AI/ML Engineer • Full Stack Developer • Motorsport Enthusiast
 
 <p align="center">
   <img width="641" height="482" alt="lap_time" src="https://github.com/user-attachments/assets/36b41ac5-8776-465b-86a5-df4cc080d361" />
-  <img src="images/grip.png" width="30%"/>
-  <img src="images/fuel.png" width="30%"/>
+  <img width="638" height="506" alt="grip" src="https://github.com/user-attachments/assets/efd02965-6e34-4a3e-8764-9f3e7cae857d" />
+  <img width="640" height="479" alt="fuel" src="https://github.com/user-attachments/assets/14b158ba-5df3-4516-9643-b4ea17773d88" />
 </p>
