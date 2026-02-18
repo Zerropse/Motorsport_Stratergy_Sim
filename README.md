@@ -55,8 +55,32 @@ motorsport_strategy_sim/
 
 1. Clone the repository:
 
-```bash
 git clone https://github.com/Zerropse/Motorsport_Stratergy_Sim.git
-cd Motorsport_Stratergy_Sim```
+cd Motorsport_Stratergy_Sim
 
 pip install matplotlib
+
+▶️ Run the Project
+python3 main.py
+
+
+📊 Output
+Terminal Output
+
+Lap-by-lap simulation
+
+Tire and fuel data
+
+Pit stop events
+
+Strategy comparison
+
+Best strategy selection
+
+Graphs
+
+📈 Lap Time vs Lap
+
+🛞 Tire Grip Degradation
+
+⛽ Fuel Load Over Race
