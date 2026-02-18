@@ -120,10 +120,16 @@ AI/ML Engineer • Full Stack Developer • Motorsport Enthusiast
 
 “Data decides races.”
 ---
-## 👨‍💻 IMAGES OF THE PROJECT
-
+## 👨‍💻 IMAGES OF THE PROJECT RESULTS
+The Data Result.
+<p align="center">
+  <img width="287" height="179" alt="Result" src="https://github.com/user-attachments/assets/ed268090-387e-4506-b62d-67a09f7a17a8" />
+  <img width="1029" height="583" alt="Table_Strat" src="https://github.com/user-attachments/assets/ca10de64-3eb7-4148-bef2-1b1c09db8a62" />
+</p>
+The Graphs.
 <p align="center">
   <img width="641" height="482" alt="lap_time" src="https://github.com/user-attachments/assets/36b41ac5-8776-465b-86a5-df4cc080d361" />
   <img width="638" height="506" alt="grip" src="https://github.com/user-attachments/assets/efd02965-6e34-4a3e-8764-9f3e7cae857d" />
   <img width="640" height="479" alt="fuel" src="https://github.com/user-attachments/assets/14b158ba-5df3-4516-9643-b4ea17773d88" />
 </p>
+
