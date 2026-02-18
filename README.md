@@ -123,7 +123,7 @@ AI/ML Engineer • Full Stack Developer • Motorsport Enthusiast
 ## 👨‍💻 IMAGES OF THE PROJECT
 
 <p align="center">
-  <img src="images/lap_time.png" width="30%"/>
+  <img width="641" height="482" alt="lap_time" src="https://github.com/user-attachments/assets/36b41ac5-8776-465b-86a5-df4cc080d361" />
   <img src="images/grip.png" width="30%"/>
   <img src="images/fuel.png" width="30%"/>
 </p>
