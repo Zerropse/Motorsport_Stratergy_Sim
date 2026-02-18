@@ -1,33 +1,67 @@
-# 🏁 Motorsport Strategy Simulator
+<h1 align="center">🏁 Motorsport Strategy Simulator</h1>
 
-A Python-based simulation of race strategy inspired by real-world motorsport (Formula 1).  
-This project models tire degradation, fuel consumption, and pit stop strategies to determine the optimal race strategy.
+<p align="center">
+  <b>🏎️ Race Strategy • Tire Modeling • Fuel Simulation • Data Visualization</b>
+</p>
 
----
-
-## 🚀 Features
-
-- 🛞 Tire degradation model (Soft, Medium, Hard)
-- ⛽ Fuel consumption affecting lap time
-- 🏁 Multi-lap race simulation
-- 🛠️ Pit stop strategy system (0-stop, 1-stop, 2-stop)
-- 🧠 Automatic best strategy selection
-- 📊 Telemetry visualization:
-  - Lap Time vs Lap
-  - Tire Grip
-  - Fuel Load
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python">
+  <img src="https://img.shields.io/badge/Matplotlib-Visualization-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge">
+</p>
 
 ---
 
-## 🧠 Simulation Logic
+## 🚀 Overview
 
-Lap time is calculated using:
+The **Motorsport Strategy Simulator** is a Python project that models real-world racing dynamics inspired by Formula 1.
+
+It simulates:
+- Tire degradation  
+- Fuel consumption  
+- Pit stop strategies  
+
+and determines the **optimal race strategy** based on total race time.
+
+---
+
+## 🧠 Core Features
+
+### 🛞 Tire Degradation Model
+- Supports **Soft, Medium, Hard compounds**
+- Grip decreases over laps
+- Different degradation rates per compound
+
+### ⛽ Fuel Model
+- Fuel decreases every lap
+- Higher fuel = slower lap times
+
+### 🏁 Race Simulation
+- Multi-lap race engine
+- Dynamic lap time calculation
+- Realistic performance trends
+
+### 🛠️ Strategy Engine
+- 0-stop strategy  
+- 1-stop strategy  
+- 2-stop strategy  
+- Automatic **best strategy selection**
+
+### 📊 Telemetry Visualization
+- 📈 Lap Time vs Lap  
+- 🛞 Tire Grip Degradation  
+- ⛽ Fuel Load  
+
+---
+
+## 🧮 Simulation Formula
+
 lap_time = base_time + fuel_penalty - grip_bonus
 
 
-- Fuel penalty increases lap time as fuel load increases  
-- Grip bonus decreases lap time based on tire performance  
-- Tire grip decreases over laps due to degradation  
+- Fuel penalty increases lap time  
+- Grip bonus reduces lap time  
+- Tire degradation reduces grip over time  
 
 ---
 
@@ -35,11 +69,11 @@ lap_time = base_time + fuel_penalty - grip_bonus
 
 motorsport_strategy_sim/
 │
-├── tire.py # Tire model (grip & degradation)
-├── car.py # Car model (fuel & lap time)
-├── strategy.py # Race + pit stop strategy simulation
-├── visualization.py # Graph plotting (matplotlib)
-├── main.py # Entry point
+├── tire.py
+├── car.py
+├── strategy.py
+├── visualization.py
+├── main.py
 └── README.md
 
 
@@ -47,40 +81,55 @@ motorsport_strategy_sim/
 
 ## ⚙️ Installation
 
-1. Clone the repository:
-
----
-
-## ⚙️ Installation
-
-1. Clone the repository:
-
+```bash
 git clone https://github.com/Zerropse/Motorsport_Stratergy_Sim.git
 cd Motorsport_Stratergy_Sim
-
 pip install matplotlib
-
-▶️ Run the Project
+▶️ Run
 python3 main.py
-
-
 📊 Output
-Terminal Output
-
+Terminal
 Lap-by-lap simulation
 
-Tire and fuel data
+Tire grip + fuel data
 
 Pit stop events
 
 Strategy comparison
 
-Best strategy selection
-
 Graphs
+📈 Lap Time
 
-📈 Lap Time vs Lap
+🛞 Tire Grip
 
-🛞 Tire Grip Degradation
+⛽ Fuel Load
 
-⛽ Fuel Load Over Race
+🏆 Example Result
+🏆 Best Strategy: 1-stop
+🔥 Why This Project Stands Out
+Combines physics + data modeling
+
+Demonstrates optimization thinking
+
+Simulates real motorsport decision-making
+
+Structured like a real engineering system
+
+🚀 Future Improvements
+🌧️ Weather simulation
+
+🚨 Safety car logic
+
+📡 Real telemetry integration
+
+🌐 Streamlit dashboard
+
+🤖 AI-based strategy prediction
+
+👨‍💻 Author
+Kush Singh
+🏎️ Motorsport Enthusiast
+💻 AI/ML Engineer
+🎯 Aspiring Race Strategy Engineer
+
+<p align="center"> ⭐ If you like this project, consider giving it a star! </p> ```
