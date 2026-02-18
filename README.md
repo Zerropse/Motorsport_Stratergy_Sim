@@ -22,4 +22,41 @@ This project models tire degradation, fuel consumption, and pit stop strategies 
 ## 🧠 Simulation Logic
 
 Lap time is calculated using:
+lap_time = base_time + fuel_penalty - grip_bonus
 
+
+- Fuel penalty increases lap time as fuel load increases  
+- Grip bonus decreases lap time based on tire performance  
+- Tire grip decreases over laps due to degradation  
+
+---
+
+## 📁 Project Structure
+
+motorsport_strategy_sim/
+│
+├── tire.py # Tire model (grip & degradation)
+├── car.py # Car model (fuel & lap time)
+├── strategy.py # Race + pit stop strategy simulation
+├── visualization.py # Graph plotting (matplotlib)
+├── main.py # Entry point
+└── README.md
+
+
+---
+
+## ⚙️ Installation
+
+1. Clone the repository:
+
+---
+
+## ⚙️ Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Zerropse/Motorsport_Stratergy_Sim.git
+cd Motorsport_Stratergy_Sim```
+
+pip install matplotlib
