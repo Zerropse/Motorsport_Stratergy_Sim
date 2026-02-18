@@ -72,9 +72,10 @@ motorsport_strategy_sim/
 
 ## ⚙️ DEPLOYMENT
 
-
+---
 ## ▶️ EXECUTION
 python3 main.py
+---
 
 ## 🏁 RACE OUTPUT
 --- STRATEGY ANALYSIS ---
@@ -83,6 +84,7 @@ python3 main.py
 2 STOP:   XXXX s
 
 🏆 OPTIMAL STRATEGY: 1-STOP
+---
 
 ## 🧠 ENGINEERING INSIGHT
 
@@ -93,6 +95,7 @@ Mid stint: peak lap times
 Late stint: tire degradation impact
 
 Pit stop: performance reset vs time loss tradeoff
+---
 
 ## 🔥 FUTURE DEVELOPMENT
 
@@ -105,6 +108,7 @@ Pit stop: performance reset vs time loss tradeoff
 🌐 Interactive strategy dashboard
 
 🤖 AI-based strategy optimization
+---
 
 ## 👨‍💻 DRIVER / DEVELOPER
 
@@ -112,4 +116,4 @@ Kush Singh
 AI/ML Engineer • Full Stack Developer • Motorsport Enthusiast
 
 “Data decides races.”
-
+---
