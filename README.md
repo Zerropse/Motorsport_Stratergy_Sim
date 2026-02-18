@@ -59,15 +59,17 @@ The system generates real-time race telemetry:
 - ⛽ Fuel Consumption Curve  
 
 ---
-
 ## 📁 ARCHITECTURE
+
+```bash
 motorsport_strategy_sim/
 │
-├── tire.py # Tire physics model
-├── car.py # Vehicle performance model
-├── strategy.py # Strategy + pit logic
-├── visualization.py # Telemetry visualization
-├── main.py # Execution engine
+├── tire.py            # Tire physics model
+├── car.py             # Vehicle performance model
+├── strategy.py        # Strategy + pit logic
+├── visualization.py   # Telemetry visualization
+├── main.py            # Execution engine
+```
 ---
 
 ## ⚙️ DEPLOYMENT
