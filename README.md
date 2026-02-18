@@ -96,19 +96,21 @@ python3 main.py
 
 ## 🧠 ENGINEERING INSIGHT
 
-Early laps: fuel-limited performance
-Mid stint: peak lap times
-Late stint: tire degradation impact
-Pit stop: performance reset vs time loss tradeoff
+- Early laps → fuel-limited performance  
+- Mid stint → peak lap times  
+- Late stint → tire degradation impact  
+- Pit stop → performance reset vs time loss tradeoff  
+
 ---
 
 ## 🔥 FUTURE DEVELOPMENT
 
-🌧️ Dynamic weather modeling
-🚨 Safety car simulation
-📡 Real-world telemetry integration
-🌐 Interactive strategy dashboard
-🤖 AI-based strategy optimization
+- 🌧️ Dynamic weather modeling  
+- 🚨 Safety car simulation  
+- 📡 Real-world telemetry integration  
+- 🌐 Interactive strategy dashboard  
+- 🤖 AI-based strategy optimization  
+
 ---
 
 ## 👨‍💻 DRIVER / DEVELOPER
