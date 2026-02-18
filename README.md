@@ -123,8 +123,8 @@ AI/ML Engineer • Full Stack Developer • Motorsport Enthusiast
 ## 👨‍💻 IMAGES OF THE PROJECT RESULTS
 The Data Result.
 <p align="center">
-  <img width="287" height="179" alt="Result" src="https://github.com/user-attachments/assets/ed268090-387e-4506-b62d-67a09f7a17a8" />
   <img width="1029" height="583" alt="Table_Strat" src="https://github.com/user-attachments/assets/ca10de64-3eb7-4148-bef2-1b1c09db8a62" />
+  <img width="287" height="179" alt="Result" src="https://github.com/user-attachments/assets/ed268090-387e-4506-b62d-67a09f7a17a8" />
 </p>
 The Graphs.
 <p align="center">
