@@ -1,135 +1,115 @@
-<h1 align="center">🏁 Motorsport Strategy Simulator</h1>
+<h1 align="center">🏁 MOTORSPORT STRATEGY SIMULATOR</h1>
 
 <p align="center">
-  <b>🏎️ Race Strategy • Tire Modeling • Fuel Simulation • Data Visualization</b>
+  <b>Race Strategy Engine • Performance Modeling • Telemetry Simulation</b>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python">
-  <img src="https://img.shields.io/badge/Matplotlib-Visualization-orange?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/F1-INSPIRED-E10600?style=for-the-badge">
+  <img src="https://img.shields.io/badge/PYTHON-3.x-black?style=for-the-badge&logo=python">
+  <img src="https://img.shields.io/badge/STATUS-RACE_READY-success?style=for-the-badge">
 </p>
 
 ---
 
-## 🚀 Overview
+## 🟥 SYSTEM OVERVIEW
 
-The **Motorsport Strategy Simulator** is a Python project that models real-world racing dynamics inspired by Formula 1.
+A high-performance **race strategy simulation system** inspired by Formula 1 engineering workflows.
 
-It simulates:
-- Tire degradation  
-- Fuel consumption  
-- Pit stop strategies  
+This engine models:
+- Tire degradation dynamics  
+- Fuel load impact  
+- Lap time performance  
+- Pit stop strategy optimization  
 
-and determines the **optimal race strategy** based on total race time.
-
----
-
-## 🧠 Core Features
-
-### 🛞 Tire Degradation Model
-- Supports **Soft, Medium, Hard compounds**
-- Grip decreases over laps
-- Different degradation rates per compound
-
-### ⛽ Fuel Model
-- Fuel decreases every lap
-- Higher fuel = slower lap times
-
-### 🏁 Race Simulation
-- Multi-lap race engine
-- Dynamic lap time calculation
-- Realistic performance trends
-
-### 🛠️ Strategy Engine
-- 0-stop strategy  
-- 1-stop strategy  
-- 2-stop strategy  
-- Automatic **best strategy selection**
-
-### 📊 Telemetry Visualization
-- 📈 Lap Time vs Lap  
-- 🛞 Tire Grip Degradation  
-- ⛽ Fuel Load  
+The system evaluates multiple strategies and outputs the **fastest race configuration**.
 
 ---
 
-## 🧮 Simulation Formula
+## 🏎️ PERFORMANCE MODEL
 
+### 🛞 Tire Dynamics
+- Compound types: **SOFT / MEDIUM / HARD**
+- Grip decay over race distance
+- Performance reset after pit stop
+
+### ⛽ Fuel Load System
+- Progressive fuel burn
+- Direct impact on lap time
+
+### ⏱️ Lap Time Engine
 lap_time = base_time + fuel_penalty - grip_bonus
 
 
-- Fuel penalty increases lap time  
-- Grip bonus reduces lap time  
-- Tire degradation reduces grip over time  
+### 🛠️ Strategy Simulation
+- 0 STOP
+- 1 STOP
+- 2 STOP  
+→ Evaluates total race time  
+→ Selects optimal strategy  
 
 ---
 
-## 📁 Project Structure
+## 📊 TELEMETRY OUTPUT
 
+The system generates real-time race telemetry:
+
+- 📈 Lap Time Evolution  
+- 🛞 Tire Grip Degradation  
+- ⛽ Fuel Consumption Curve  
+
+---
+
+## 📁 ARCHITECTURE
 motorsport_strategy_sim/
 │
-├── tire.py
-├── car.py
-├── strategy.py
-├── visualization.py
-├── main.py
-└── README.md
-
-
+├── tire.py # Tire physics model
+├── car.py # Vehicle performance model
+├── strategy.py # Strategy + pit logic
+├── visualization.py # Telemetry visualization
+├── main.py # Execution engine
 ---
 
-## ⚙️ Installation
+## ⚙️ DEPLOYMENT
 
-```bash
-git clone https://github.com/Zerropse/Motorsport_Stratergy_Sim.git
-cd Motorsport_Stratergy_Sim
-pip install matplotlib
-▶️ Run
+
+## ▶️ EXECUTION
 python3 main.py
-📊 Output
-Terminal
-Lap-by-lap simulation
 
-Tire grip + fuel data
+## 🏁 RACE OUTPUT
+--- STRATEGY ANALYSIS ---
+0 STOP:   XXXX s
+1 STOP:   XXXX s
+2 STOP:   XXXX s
 
-Pit stop events
+🏆 OPTIMAL STRATEGY: 1-STOP
 
-Strategy comparison
+## 🧠 ENGINEERING INSIGHT
 
-Graphs
-📈 Lap Time
+Early laps: fuel-limited performance
 
-🛞 Tire Grip
+Mid stint: peak lap times
 
-⛽ Fuel Load
+Late stint: tire degradation impact
 
-🏆 Example Result
-🏆 Best Strategy: 1-stop
-🔥 Why This Project Stands Out
-Combines physics + data modeling
+Pit stop: performance reset vs time loss tradeoff
 
-Demonstrates optimization thinking
+## 🔥 FUTURE DEVELOPMENT
 
-Simulates real motorsport decision-making
+🌧️ Dynamic weather modeling
 
-Structured like a real engineering system
+🚨 Safety car simulation
 
-🚀 Future Improvements
-🌧️ Weather simulation
+📡 Real-world telemetry integration
 
-🚨 Safety car logic
+🌐 Interactive strategy dashboard
 
-📡 Real telemetry integration
+🤖 AI-based strategy optimization
 
-🌐 Streamlit dashboard
+## 👨‍💻 DRIVER / DEVELOPER
 
-🤖 AI-based strategy prediction
-
-👨‍💻 Author
 Kush Singh
-🏎️ Motorsport Enthusiast
-💻 AI/ML Engineer
-🎯 Aspiring Race Strategy Engineer
+AI/ML Engineer • Full Stack Developer • Motorsport Enthusiast
 
-<p align="center"> ⭐ If you like this project, consider giving it a star! </p> ```
+“Data decides races.”
+
