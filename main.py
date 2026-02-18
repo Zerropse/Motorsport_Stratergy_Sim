@@ -10,6 +10,7 @@ def run_all_strategies():
         pit_laps=[],
         compound_sequence=["medium"]
     )
+    
 
     print("\n--- 1 STOP STRATEGY ---")
     time_1, lap_times_1, grips_1, fuels_1 = sim.simulate(
