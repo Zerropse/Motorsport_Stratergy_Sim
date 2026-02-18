@@ -120,3 +120,10 @@ AI/ML Engineer • Full Stack Developer • Motorsport Enthusiast
 
 “Data decides races.”
 ---
+## 👨‍💻 IMAGES OF THE PROJECT
+
+<p align="center">
+  <img src="images/lap_time.png" width="30%"/>
+  <img src="images/grip.png" width="30%"/>
+  <img src="images/fuel.png" width="30%"/>
+</p>
